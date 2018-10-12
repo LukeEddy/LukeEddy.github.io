@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR');
+html {
+
+    font-family: 'Noto Serif KR', sans-serif;
+
+}
+.container {
+                                                            
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.navigation {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    background: black;
+    justify-content: flex-end;
+}
+
+.navigation>li {
+    padding: 8px;
+}  
+.navigation>li:hover {
+    cursor: pointer; 
+}
+.navigation>li>a{
+    color: blue;
+}
